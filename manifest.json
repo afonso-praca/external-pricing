@@ -1,0 +1,26 @@
+{
+  "name": "external-pricing",
+  "vendor": "afonsopraca",
+  "version": "1.0.0",
+  "title": "External Prices Node App",
+  "description": "A reference app for consulting external prices.",
+  "categories": [],
+  "dependencies": {},
+  "builders": {
+    "node": "6.x",
+    "docs": "0.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "credentialType": "absolute",
+  "policies": [
+    {
+      "name": "colossus-fire-event"
+    },
+    {
+      "name": "colossus-write-logs"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
